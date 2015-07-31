@@ -1,0 +1,33 @@
+猟周幣箭
+wzggrlc.txt！！x,y,z
+wzggrlcrow.txt！！row by row
+arcwzggrlcrow.txt/tism0725arc！！ArcView Format row by row
+
+////gridatb.for！！calculate topographic index
+input data format of dem:
+line 1: title
+line 2: ncols,nrows,cellsize
+line 3......:dem data row by row  
+
+(modified by WGS on 2002-1-23,the format is the same as ArcView)
+
+
+////gridconv.for！！transform grided matrix data from i,j,E format to row by row format
+input data format:
+one:
+line 1: title
+line 2: ncols,nrows,cellsize
+line 3......: i,j,E(i,j)
+
+the other:
+line 1: title
+line 2: xmin,xmax,ymin,ymax,cellsize
+line 3......: coordx,coordy,E(coordx,coordy)
+
+////gridtran.for！！transform grided matrix data from col by col format to row by row format
+input data format:
+line 1: title
+line 2: ncols,nrows,cellsize
+line 3......:dem data col by col  
+
+

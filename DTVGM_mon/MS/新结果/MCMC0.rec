@@ -1,0 +1,21 @@
+BasinSelect: xhui
+g1		True
+g2		False
+Kr		True
+KAW		True
+AW0		False
+Var		True
+ProposalDistribution		0
+Samples		20000
+Sigma		0.05
+DateBegin		1967-01-01
+DateEnd		1972-12-31
+
+Isample		Isel		Theta[1:noptMC]		RunoffCal[1:nMonths]
+
+    0.0841,5001, 2886,Acceptance Rate[0] = 57.71%		
+    2.9775,0, 0,Acceptance Rate[1] =  0.00%		
+    0.0545,5048, 492,Acceptance Rate[2] =  9.75%		
+    0.3730,5021, 2069,Acceptance Rate[3] = 41.21%		
+   30.0000,0, 0,Acceptance Rate[4] =  0.00%		
+    0.8980,4930, 4526,Acceptance Rate[5] = 91.81%		

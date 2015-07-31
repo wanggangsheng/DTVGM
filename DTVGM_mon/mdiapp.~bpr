@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="mdiapp.exe"/>
+    <OBJFILES value="mdiapp.obj main.obj childwin.obj about.obj QueryDemo.obj DateDialog.obj 
+      DM1.obj workdir.obj DirectoryDialog.obj ModelParaDialog.obj HydroGraph.obj 
+      TopIndexFiles.obj ChartAxisX.obj MPSAmap.obj 
+      &quot;C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS\okcancl1.obj&quot; MCMCINI.obj"/>
+    <RESFILES value="mdiapp.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) main.dfm childwin.dfm about.dfm QueryDemo.dfm DateDialog.dfm 
+      DM1.dfm workdir.dfm DirectoryDialog.dfm ModelParaDialog.dfm HydroGraph.dfm 
+      TopIndexFiles.dfm ChartAxisX.dfm MPSAmap.dfm 
+      &quot;C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS\okcancl1.dfm&quot; MCMCINI.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="Tee7C6.lib tee.lib adortl.lib bdertl.lib dbrtl.lib vcldb.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vcldb.lib dbrtl.lib bdertl.lib adortl.lib vclx.lib tee.lib 
+      Tee7C6.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi"/>
+    <PATHCPP value=".;&quot;C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS&quot;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="mdiapp.cpp"/>
+    <INCLUDEPATH value="&quot;C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS&quot;;&quot;C:\Program Files\Borland\CBuilder6\Source\SnPack2.21BCB&quot;;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\gsl"/>
+    <LIBPATH value="&quot;C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS&quot;;&quot;C:\Program Files\Borland\CBuilder6\Source\SnPack2.21BCB&quot;;$(BCB)\Projects\Lib;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS&quot; 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Source\SnPack2.21BCB&quot; 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -I$(BCB)\include\gsl -src_suffix cpp"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="mdiapp.cpp" FORMNAME="" UNITNAME="mdiapp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="MainForm" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="childwin.cpp" FORMNAME="MDIChild" UNITNAME="ChildWin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mdiapp.res" FORMNAME="" UNITNAME="mdiapp" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="about.cpp" FORMNAME="AboutBox" UNITNAME="about" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="QueryDemo.cpp" FORMNAME="FormQuery" UNITNAME="QueryDemo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DateDialog.cpp" FORMNAME="DateDlg" UNITNAME="DateDialog" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DM1.cpp" FORMNAME="DM" UNITNAME="DM1" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="workdir.cpp" FORMNAME="WorkDirDlg" UNITNAME="workdir" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DirectoryDialog.cpp" FORMNAME="DirectoryDlg" UNITNAME="DirectoryDialog" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ModelParaDialog.cpp" FORMNAME="ModelParaDlg" UNITNAME="ModelParaDialog" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HydroGraph.cpp" FORMNAME="frmHydroGraph" UNITNAME="HydroGraph" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TopIndexFiles.cpp" FORMNAME="DlgTOPIndex" UNITNAME="TopIndexFiles" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ChartAxisX.cpp" FORMNAME="DlgChartEdit" UNITNAME="ChartAxisX" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MPSAmap.cpp" FORMNAME="frmMPSAmap" UNITNAME="MPSAmap" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS\okcancl1.cpp" FORMNAME="OKBottomDlg" UNITNAME="OKCANCL1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MCMCINI.cpp" FORMNAME="DlgMCMCINI" UNITNAME="MCMCINI" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dcldss60.bpl=Borland Decision Cube Components
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS;C:\Program Files\Borland\CBuilder6\Source\SnPack2.21BCB;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\include\gsl
+Item1=C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS;C:\Program Files\Borland\CBuilder6\Source\SnPack2.21BCB;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=C:\PROGRAM FILES\BORLAND\CBUILDER6\OBJREPOS;C:\Program Files\Borland\CBuilder6\Source\SnPack2.21BCB;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

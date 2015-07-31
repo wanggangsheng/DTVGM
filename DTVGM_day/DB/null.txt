@@ -1,0 +1,3 @@
+1	wgs
+2	cyn
+3	wgscyn
